@@ -38,34 +38,6 @@ for item in set(groceryList):
 
     """
     
-def getAccount():
-    accounts = []
-     while True:
-         username = input("Enter username: ").strip().capitalize()
-         if username not in accounts:
-            accounts.append(username)
-            print(f"{username} Account Created")
-            conC = input("Do you want to continue? ").lower()
-            if conC != yes:
-                print("Account list:")
-                for x in accounts:
-                    print(f"Name: "):
-                    break
-        else:
-            print(f"Is already on the list")
-            break
-class Person():
-    def __init__(self, firstname, lastname, age, gender):
-        self.firstname = firstname
-        self.lastname = lastname
-        self.age = age
-        self.gender = gender
-        print("Account Created")
-        
-    def accountInformation(self):
-        print(f"Fullname: {firstname} {lastname}")
-        print("Age: ")
-        print("Gender: ") 
     
 
         
